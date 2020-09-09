@@ -10,7 +10,7 @@
   "go.coverOnSave": false,
   "go.useCodeSnippetsOnFunctionSuggest": false,
   "go.formatTool": "goreturns",
-  "go.goroot": "/usr/local/Cellar/go/1.14.3/libexec",
+  "go.goroot": "/usr/local/Cellar/go/1.15/libexec",
   "go.gopath": "/Users/guanliyuan/go",
   "go.gocodeAutoBuild": true
 }
