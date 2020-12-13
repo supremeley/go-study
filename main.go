@@ -73,7 +73,7 @@ func queryMulti(DB *sql.DB) {
 }
 
 func insertData(Db *sql.DB) {
-	res, err := Db.Exec("insert INTO test(id, name, sex) values(?,?,?)", 5, "test", 0)
+	res, err := Db.Exec("insert INTO test(id, name, sex) values(?,?,?)", 1, "aa", 0)
 	if err != nil {
 		fmt.Printf("insert failed, err:%v\n", err)
 		return
